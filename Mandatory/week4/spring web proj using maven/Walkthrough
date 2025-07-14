@@ -1,0 +1,29 @@
+1. src/main/java
+This folder contains all Java source code.
+
+You’ll find your package com.cognizant.springlearn and classes like SpringLearnApplication.java.
+
+2. src/main/resources
+This folder stores configuration files like:
+
+application.properties
+
+logback.xml or application.yml (if you use custom logging or configuration)
+
+3. src/test/java
+This folder contains unit tests.
+
+JUnit-based test classes for application functionality go here.
+
+4. SpringLearnApplication.java
+Main class:
+
+java
+Copy
+Edit
+@SpringBootApplication
+public class SpringLearnApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(SpringLearnApplication.class, args);
+    }
+}
