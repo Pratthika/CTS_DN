@@ -1,0 +1,3 @@
+<h3 style={{ color: cohort.status === "ongoing" ? "green" : "blue" }}>
+  {cohort.name}
+</h3>
